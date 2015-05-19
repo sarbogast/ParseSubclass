@@ -15,6 +15,7 @@
 		B99EB33B1B0A673C007634E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B99EB3391B0A673C007634E5 /* LaunchScreen.xib */; };
 		B99EB3471B0A673C007634E5 /* ParseSubclassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EB3461B0A673C007634E5 /* ParseSubclassTests.swift */; };
 		B99EB3511B0A67B4007634E5 /* Armor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99EB3501B0A67B4007634E5 /* Armor.swift */; };
+		B9FEA7A41B0B864A0064E24B /* ArmorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FEA7A31B0B864A0064E24B /* ArmorListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,8 @@
 		B99EB3451B0A673C007634E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B99EB3461B0A673C007634E5 /* ParseSubclassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseSubclassTests.swift; sourceTree = "<group>"; };
 		B99EB3501B0A67B4007634E5 /* Armor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Armor.swift; sourceTree = "<group>"; };
-		B99EB3521B0A6810007634E5 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		B99EB3541B0A6A09007634E5 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		B9FEA7A31B0B864A0064E24B /* ArmorListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmorListViewController.swift; sourceTree = "<group>"; };
 		D56AFD79D596E6A04A95116C /* Pods-ParseSubclass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseSubclass.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseSubclass/Pods-ParseSubclass.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 		B99EB32D1B0A673C007634E5 /* ParseSubclass */ = {
 			isa = PBXGroup;
 			children = (
+				B9FEA7A31B0B864A0064E24B /* ArmorListViewController.swift */,
 				B99EB3301B0A673C007634E5 /* AppDelegate.swift */,
 				B99EB3321B0A673C007634E5 /* ViewController.swift */,
 				B99EB3341B0A673C007634E5 /* Main.storyboard */,
@@ -110,8 +113,8 @@
 		B99EB32E1B0A673C007634E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B99EB3541B0A6A09007634E5 /* BridgingHeader.h */,
 				B99EB32F1B0A673C007634E5 /* Info.plist */,
-				B99EB3521B0A6810007634E5 /* BridgingHeader.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FEA7A41B0B864A0064E24B /* ArmorListViewController.swift in Sources */,
 				B99EB3511B0A67B4007634E5 /* Armor.swift in Sources */,
 				B99EB3331B0A673C007634E5 /* ViewController.swift in Sources */,
 				B99EB3311B0A673C007634E5 /* AppDelegate.swift in Sources */,

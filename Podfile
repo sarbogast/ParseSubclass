@@ -3,6 +3,7 @@
 
 target 'ParseSubclass' do
 pod 'Parse', '~> 1.7'
+pod 'ParseUI', '~> 1.1'
 end
 
 target 'ParseSubclassTests' do

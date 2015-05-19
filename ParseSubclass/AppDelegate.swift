@@ -15,10 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        //Armor.registerSubclass()
         Parse.setApplicationId("KcKNlZhKdZwkUJhaTSyIJ6SDq287l93gR8K8WPA7",
             clientKey: "0a0DgYSRLdEf0gNjonojIa6mQt3XMQ24cj9GGPpA")
         
-        let armor:Armor = Armor()
         return true
     }
 
